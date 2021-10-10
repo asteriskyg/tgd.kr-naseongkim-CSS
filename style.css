@@ -364,6 +364,298 @@ i.fa.fa-user {
     display: none;
 }
 
+#article-info {
+    background-color: white;
+    padding: 20px 20px 15px 20px;
+    border-radius: 20px 20px 0 0;
+    border: 2px solid #f1f3f5;
+    border-bottom: none;
+    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    z-index: 1;
+}
+
+#article-info .article-profile-img {
+    border-radius: 15px;
+    border: 2px solid #f1f3f5;
+    box-shadow: 0px 0px 10px 0px rgb(82 63 105 / 10%);
+}
+
+#article-info #article-info-writer {
+    padding: 10px 0 0 0;    
+}
+
+#article-content-wrapper {
+    padding: 0;
+    border-radius: 20px;
+}
+
+#article-content-wrapper>.header {
+    background-color: white;
+    border: 2px solid #f1f3f5;
+    border-top: none;
+    height: 45px;
+    margin-bottom: 1em;
+    padding: 13px 15px 0 15px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    z-index: 100000;
+}
+
+#article-content-wrapper #article-content {
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    border: 2px solid #f1f3f5;
+    border-bottom: none;
+    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    padding: 20px 20px 20px 20px;
+    word-break: keep-all !important;
+}
+
+#article-content-wrapper>.vote-area {
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 1em;
+    border: 2px solid #f1f3f5;
+    border-top: none;
+}
+
+#article-content-wrapper>.footer {
+    background-color: white;
+    padding: 20px;
+    margin: 1em 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    border: 2px solid #f1f3f5;
+}
+
+#article-reply-area {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    border: 2px solid #f1f3f5;
+    margin-bottom: 1em;
+}
+
+#article-reply-area>.header {
+    padding: 0 0 20px 0
+}
+
+#article-reply-area #reply-best-area {
+    padding: 0 0 20px 0;
+}
+
+#article-reply-area #reply-real-area {
+    padding: 0;
+}
+
+#article-reply-area #reply-real-area .reply {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#board-info+div {
+    background-color: white;
+    margin-bottom: 1em;
+    border-radius: 20px;
+    padding: 1em !Important;
+    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+}
+
+#article-neighbor-list {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 1em;
+    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+}
+
+
+#article-reply-area #reply-best-area .reply {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #f1f3f5;
+    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+}
+
+#article-reply-area #reply-best-area .reply>.reply-header {
+    padding: 10px 15px;
+    border-radius: 18px 18px 0 0;
+    background-color: #e7f5ff;
+}
+
+#article-reply-area #reply-best-area .reply>.reply-content {
+    padding: 10px 15px;
+    border-radius: 0 0 18px 18px;
+}
+
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu a {
+    padding: 8px 0px;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu a:hover {
+    padding: 8px 10px;
+    background-color: #d0ebff;
+    border-radius: 10px;
+}
+
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu a:active {
+    padding: 8px 10px;
+    background-color: #b2f2bb;
+    border-radius: 10px;
+}
+
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer {
+    padding-top: 4px;
+}
+
+#article-reply-area #reply-best-area .reply>.reply-header>small.code {
+    padding-top: 5px;
+}
+
+
+#comment-write-form-area {
+    padding: 0
+}
+
+#comment-write-form {
+    margin: 0
+}
+
+.fr-box {
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    border: 2px solid #f1f3f5;
+    border-bottom: 0;
+    padding: 20px;
+}
+
+#comment-write-form #comment-write-button-area {
+    background-color: white;
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    border-radius: 0 0 20px 20px;
+    border: 2px solid #f1f3f5;
+    border-top: 0;
+    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 7%);
+    
+}
+
+#article-content-wrapper > div.vote-area > button {
+    height: 40px;
+    border-radius: 15px;
+    transition: all 0.2s;
+    border: 2px solid #5cb85c;
+    color: #5cb85c;
+    outline: none;
+    font-weight: bold;
+}
+
+#article-content-wrapper > div.vote-area > button:hover {
+    color: white;
+}
+
+#article-content-wrapper > div.vote-area > button:active {
+    color: white;
+    background-color: #0094ff;
+    border: 2px solid #0094ff;
+    outline: none;
+}
+
+#article-content-wrapper > div.footer > a > i {
+    display: none;
+}
+
+#article-content-wrapper > div.footer > a {
+    padding: 6px 10px;
+    border: 2px solid #f1f3f5;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+#reportArticleBtn {
+    padding: 6px 10px;
+    border: 2px solid #d9534f;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+#reportArticleBtn > i {
+    display: none;
+}
+
+
+#article-reply-area #reply-real-area .reply {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #f1f3f5;
+    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);    
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header {
+    padding: 10px 15px;
+    border-radius: 18px 18px 0 0;
+    background-color: #e7f5ff;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-menu a {
+    padding: 8px 0px;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-menu a:hover {
+    padding: 8px 10px;
+    background-color: #d0ebff;
+}
+
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-menu a:active {
+    background-color: #b2f2bb;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-content > #comment-write-form > div.fr-box.fr-ltr.fr-basic.fr-top {
+    margin: 20px 5px 0 5px;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-content > #comment-write-form #comment-write-button-area {
+    margin: 0 5px 5px 5px;
+}
+
+#writeCommentBtn {
+    border: 2px solid #0094ff;
+    color: #0094ff;
+    font-weight: bolder;
+    background-color: white;
+    height: 35px;
+    border-radius: 13px;
+    transition: all 0.2s;
+    outline: 0;
+}
+
+#writeCommentBtn:hover {
+    background-color: #0094ff;
+    color: white;
+}
+
+#writeCommentBtn:active {
+    border: 2px solid #1971c2;
+    background-color: #1971c2;
+    color: white;
+}
+
+#article-neighbor-list > div {
+    transition: all 0.2s;
+}
+
 /* header #header-bar>.row {
     border: 0;
     padding: 0;
