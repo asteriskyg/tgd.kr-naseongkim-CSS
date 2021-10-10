@@ -656,6 +656,10 @@ i.fa.fa-user {
     transition: all 0.2s;
 }
 
+#article-reply-area > #reply-real-area .reply>.reply-content {
+    padding: 10px 15px;
+}
+
 /* header #header-bar>.row {
     border: 0;
     padding: 0;
