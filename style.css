@@ -687,6 +687,15 @@ i.fa.fa-user {
     background-color: #37b24d;
     color: white;
 }
+
+#btnRereplyCancelBtn {
+    border: 2px solid #f1f3f5;
+    height: 35px;
+    border-radius: 13px;
+    transition: all 0.2s;
+    outline: none;
+}
+
 /* header #header-bar>.row {
     border: 0;
     padding: 0;
