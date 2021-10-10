@@ -71,7 +71,7 @@ footer {
     background-color: white;
     border-radius: 15px;
     padding: 10px;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
 }
 
 #article-list #boardSearchForm {
@@ -204,7 +204,7 @@ footer {
     background-color: white;
     border-radius: 22px;
     border: 2px solid #f1f3f5;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 7%)
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 7%)
 }
 
 #article-list #article-list-category {
@@ -227,7 +227,7 @@ footer {
 }
 
 #article-list #article-list-category > a:last-child {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 #article-list-category {
@@ -255,7 +255,7 @@ a.shortcut-link:last-child {
 div.menu-wrapper {
     border: 2px solid #f1f3f5;
     background-color: white;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 7%)
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 7%)
 }
 
 #main-menu > div.menu-wrapper > div.header {
@@ -269,7 +269,7 @@ i.fa.fa-bars {
 
 #main #main-content > div.frame {
     background: none;
-    border: 0px solid #f1f3f5;
+    border: 0 solid #f1f3f5;
 }
 
 header #right-search-form > input[type=text] {
@@ -294,7 +294,7 @@ header #right-search-form > input[type=text]:focus {
     background-color: white;
     border-radius: 15px;
     padding: 10px;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
 }
 
 .spacer {
@@ -316,7 +316,7 @@ header #right-search-form > input[type=text]:focus {
     background-position: right;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
     border: 2px solid #f1f3f5;
     height: 60px;
     display: flex;
@@ -370,14 +370,14 @@ i.fa.fa-user {
     border-radius: 20px 20px 0 0;
     border: 2px solid #f1f3f5;
     border-bottom: none;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
     z-index: 1;
 }
 
 #article-info .article-profile-img {
     border-radius: 15px;
     border: 2px solid #f1f3f5;
-    box-shadow: 0px 0px 10px 0px rgb(82 63 105 / 10%);
+    box-shadow: 0 0 10px 0 rgb(82 63 105 / 10%);
 }
 
 #article-info #article-info-writer {
@@ -397,7 +397,7 @@ i.fa.fa-user {
     margin-bottom: 1em;
     padding: 13px 15px 0 15px;
     border-radius: 0 0 20px 20px;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
     z-index: 100000;
 }
 
@@ -406,8 +406,8 @@ i.fa.fa-user {
     border-radius: 20px 20px 0 0;
     border: 2px solid #f1f3f5;
     border-bottom: none;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
-    padding: 20px 20px 20px 20px;
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    padding: 20px;
     word-break: keep-all !important;
 }
 
@@ -424,7 +424,7 @@ i.fa.fa-user {
     padding: 20px;
     margin: 1em 0;
     border-radius: 20px;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
     border: 2px solid #f1f3f5;
 }
 
@@ -432,7 +432,7 @@ i.fa.fa-user {
     background-color: white;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
     border: 2px solid #f1f3f5;
     margin-bottom: 1em;
 }
@@ -459,7 +459,7 @@ i.fa.fa-user {
     margin-bottom: 1em;
     border-radius: 20px;
     padding: 1em !Important;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
 }
 
 #article-neighbor-list {
@@ -467,7 +467,7 @@ i.fa.fa-user {
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 1em;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
 }
 
 
@@ -475,7 +475,7 @@ i.fa.fa-user {
     margin-bottom: 20px;
     border-radius: 20px;
     border: 2px solid #f1f3f5;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
 }
 
 #article-reply-area #reply-best-area .reply>.reply-header {
@@ -490,7 +490,7 @@ i.fa.fa-user {
 }
 
 #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu a {
-    padding: 8px 0px;
+    padding: 8px 0;
     border-radius: 10px;
     transition: all 0.2s;
 }
@@ -539,7 +539,7 @@ i.fa.fa-user {
     border-radius: 0 0 20px 20px;
     border: 2px solid #f1f3f5;
     border-top: 0;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 7%);
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 7%);
 }
 
 #article-content-wrapper > div.vote-area > button {
@@ -596,7 +596,7 @@ i.fa.fa-user {
     margin-bottom: 20px;
     border-radius: 20px;
     border: 2px solid #f1f3f5;
-    box-shadow: 0px 0px 30px 0px rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
 }
 
 #article-reply-area #reply-real-area .reply:last-child {
@@ -610,7 +610,7 @@ i.fa.fa-user {
 }
 
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-menu a {
-    padding: 8px 0px;
+    padding: 8px 0;
     border-radius: 10px;
     transition: all 0.2s;
 }
