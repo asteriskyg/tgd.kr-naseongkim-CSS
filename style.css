@@ -696,6 +696,14 @@ i.fa.fa-user {
     outline: none;
 }
 
+#article-list>.article-list-row.active > .item {
+    background-color: #e7f5ff;
+}
+
+#article-list>.article-list-row.active > .item > .list-title > a {
+    color: black !important;
+}
+
 /* header #header-bar>.row {
     border: 0;
     padding: 0;
