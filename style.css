@@ -8,6 +8,17 @@ body {
     background-color: #f8f9fa;
 }
 
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 15px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
 header {
     background-color: #f8f9fa;
     /* backdrop-filter: blur(10px); */
@@ -709,19 +720,19 @@ i.fa.fa-user {
     padding: 0;
     height: auto;
   }
-  
+
   #header-menu-left {
-    
+
     background-color: red;
     border-radius: 20px;
   }
-  
+
   #header-top-notice {
-    
+
     background-color: red;
   }
-  
+
   #header-menu-right {
-    
+
     background-color: red;
   } */
