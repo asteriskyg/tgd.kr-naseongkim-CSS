@@ -1,0 +1,197 @@
+#articleWriteForm > div.row.mt-2 {
+    background-color: white;
+    margin: 0;
+    padding: 20px 20px 0 20px;
+    border: 2px  solid #f1f3f5;
+    border-bottom: 0;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+}
+
+#articleWriteForm > div.row.mt-2 > div.col-xs-2.left {
+    padding-left: 0;
+}
+
+#articleWriteForm > div.row.mt-2 > div.col-xs-10.right {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#articleWriteForm > div:nth-child(4) {
+    margin: 0;
+}
+
+#articleWriteForm > div:nth-child(4) > div {
+    border-radius: 0;
+    border-top: 0;
+    border-left: 2px  solid #f1f3f5;
+    border-right: 2px  solid #f1f3f5;
+}
+
+#articleWriteForm > div:nth-child(5) {
+    background-color: white;
+    margin: 0;
+    padding: 0 20px;
+    border-left: 2px  solid #f1f3f5;
+    border-right: 2px  solid #f1f3f5;
+}
+
+#articleWriteForm > div:nth-child(7) {
+    background-color: white;
+    margin: 0;
+    padding: 0 20px;
+    border-left: 2px  solid #f1f3f5;
+    border-right: 2px  solid #f1f3f5;
+}
+
+#articleWriteForm > div:nth-child(9) {
+    background-color: white;
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    border: 2px  solid #f1f3f5;
+    border-top: 0;
+    border-radius: 0 0 20px 20px;
+}
+
+#image-upload-form {
+    background-color: white;
+    border: 2px  solid #f1f3f5;
+    border-radius: 20px;
+    padding: 20px 0 0 20px;
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    margin: 20px 0 !important;
+}
+
+#articleWriteForm > div.mt-2.clearfix {
+    background-color: white;
+    border: 2px  solid #f1f3f5;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    margin-top: 154px !important;
+}
+
+#articleWriteForm > div.row.mt-2 > div.col-xs-2.left > select {
+    border: 2px  solid #ced4da;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: none;
+    transition: all 0.2s;
+}
+
+#articleWriteForm > div.row.mt-2 > div.col-xs-2.left > select:hover {
+    border: 2px  solid #0094ff;
+}
+
+#articleWriteForm > div.row.mt-2 > div.col-xs-2.left > select:focus {
+    border: 2px  solid #0094ff;
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+}
+
+#title {
+    border: 2px  solid #ced4da;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: none;
+    transition: all 0.2s;
+}
+
+#title:hover {
+    border: 2px  solid #0094ff;
+}
+
+#title:focus {
+    border: 2px  solid #0094ff;
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+}
+
+#main-content > div > h3 {
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 1em;
+    border-radius: 20px;
+    border: 2px  solid #f1f3f5;
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+}
+
+#image-upload-btn {
+    border: 2px solid #e9ecef;
+    color: #212529;
+    font-weight: bolder;
+    background-color: white;
+    height: 40px;
+    border-radius: 15px;
+    transition: all 0.2s;
+    outline: 0;
+}
+
+#image-upload-btn:hover {
+    background-color: #e9ecef;
+}
+
+#image-upload-btn:active {
+    border: 2px solid #ced4da;
+    background-color: #ced4da;
+}
+
+#articleWriteForm > div.mt-2.clearfix > a {
+    border: 2px solid #e9ecef;
+    color: #212529;
+    font-weight: bolder;
+    background-color: white;
+    padding-top: 8px;
+    height: 40px;
+    border-radius: 15px;
+    transition: all 0.2s;
+    outline: 0;
+}
+
+#articleWriteForm > div.mt-2.clearfix > a:hover {
+    background-color: #e9ecef;
+}
+
+#articleWriteForm > div.mt-2.clearfix > a:active {
+    border: 2px solid #ced4da;
+    background-color: #ced4da;
+}
+
+#addPollBtn {
+    border: 2px solid #99e9f2;
+    color: #212529;
+    font-weight: bolder;
+    background-color: white;
+    height: 40px;
+    border-radius: 15px;
+    transition: all 0.2s;
+    outline: 0;
+}
+
+#addPollBtn:hover {
+    background-color: #99e9f2;
+}
+
+#addPollBtn:active {
+    border: 2px solid #3bc9db;
+    background-color: #3bc9db;
+}
+
+#article-write-button {
+    border: 2px solid #0094ff;
+    color: #212529;
+    font-weight: bolder;
+    background-color: white;
+    height: 40px;
+    border-radius: 15px;
+    transition: all 0.2s;
+    outline: 0;
+}
+
+#article-write-button:hover {
+    background-color: #0094ff;
+    color: white;
+}
+
+#article-write-button:active {
+    border: 2px solid #1c7ed6;
+    background-color: #1c7ed6;
+}
