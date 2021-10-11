@@ -1,0 +1,272 @@
+/* 게시물 작성, 수정 */
+
+#main #main-content > div.frame {
+    padding: 0;
+}
+/* 페이지 제목 */
+#main-content > div > h3 {
+    padding: 20px;
+    background-color: #343a40;
+    border: 2px solid #212529;
+    color: #f8f9fa;
+    margin-bottom: 1em;
+    border-radius: 20px;
+}
+
+/* 글 작성 컨테이너 (위) */
+#articleWriteForm > div.row.mt-2 {
+    background-color: #343a40;
+    margin: 0;
+    padding: 20px 20px 0 20px;
+    border: 2px solid #212529;
+    border-bottom: 0;
+    border-radius: 20px 20px 0 0;
+}
+
+/* 카테고리 선택 */
+
+
+#articleWriteForm > div.row.mt-2 > div.col-xs-2.left > select {
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid #495057;
+    background-color: #495057;
+    color: #f8f9fa;
+    outline: none;
+    box-shadow: none;
+    transition: all 0.2s;
+}
+
+#articleWriteForm > div.row.mt-2 > div.col-xs-2.left > select:hover {
+    border: 2px solid #1971c2;
+}
+
+#articleWriteForm > div.row.mt-2 > div.col-xs-2.left > select:focus {
+    border: 2px solid #495057;
+    background-color: #495057;
+}
+
+#articleWriteForm > div.row.mt-2 > div.col-xs-2.left {
+    padding-left: 0;
+}
+
+/* 글 제목 */
+#title {
+    box-shadow: none;
+    border: 2px solid #495057;
+    background-color: #495057;
+    color: #f8f9fa;
+    border-radius: 15px;
+    padding: 10px 15px;
+    transition: all 0.2s;
+    height: 40px;
+    outline: none;
+}
+
+#title:hover {
+    border: 2px solid #1971c2;
+}
+
+#title:focus {
+    border: 2px solid #228be6;
+    box-shadow: 0 0 20px 0 rgb(82 63 105 / 13%);
+}
+
+#articleWriteForm > div.row.mt-2 > div.col-xs-10.right {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* 글 작성 컨테이너 (아래) */
+#articleWriteForm > div:nth-child(4) {
+    margin: 0;
+}
+
+#articleWriteForm > div:nth-child(4) > div {
+    border-radius: 0;
+    border-top: 0;
+    background-color: #343a40;
+    border-left: 2px solid #212529;
+    border-right: 2px solid #212529;
+}
+
+/* 댓글 설정 */
+#articleWriteForm > div:nth-child(5) {
+    background-color: #343a40;
+    margin: 0;
+    padding: 0 20px;
+    border-left: 2px solid #212529;
+    border-right: 2px solid #212529;
+    color: #f8f9fa;
+}
+
+/* 아이콘 설정 */
+#articleWriteForm > div:nth-child(7) {
+    background-color: #343a40;
+    margin: 0;
+    padding: 10px 0 5px 20px;
+    border-left: 2px solid #212529;
+    border-right: 2px solid #212529;
+    color: #f8f9fa;
+}
+
+a.custom-badge-link {
+    border: 0;
+    border-radius: 8px;
+    padding: 0 6px 03px 6px;
+    transition: all 0.2s;
+    margin-right: 5px;
+}
+
+a.custom-badge-link:hover {
+    background-color: #ced4da;
+}
+
+a.custom-badge-link.active {
+    border: 0;
+    border-radius: 8px;
+    background-color: #ced4da;
+}
+
+/* 업적 설정 */
+#articleWriteForm > div:nth-child(9) {
+    background-color: #343a40;
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    border: 2px solid #212529;
+    border-top: 0;
+    border-radius: 0 0 20px 20px;
+    color: #f8f9fa;
+}
+
+/* 이미지 업로드 컨테이너 */
+#image-upload-form {
+    background-color: #343a40;
+    border: 2px solid #212529;
+    color: #f8f9fa;
+    border-radius: 20px;
+    padding: 20px 0 0 20px;
+    margin: 20px 0 !important;
+}
+
+/* 이미지 업로드 버튼 */
+#image-upload-btn {
+    padding: 0 13px;
+    margin-right: 5px;
+    height: 35px;
+    border: 2px solid #495057;
+    background-color: #495057;
+    color: #f8f9fa;
+    border-radius: 13px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    outline: none;
+}
+
+#image-upload-btn:hover {
+    background-color: #868e96;
+    border: 2px solid #868e96;
+    color: #f8f9fa;
+}
+
+#image-upload-btn:active {
+    box-shadow: none;
+    border: 2px solid #adb5bd;
+    background-color: #adb5bd;
+    
+}
+
+/* 글 관리 컨테이너 */
+#articleWriteForm > div.mt-2.clearfix {
+    width: 876px !important;
+    background-color: #343a40;
+    border: 2px solid #212529;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    margin-top: 154px !important;
+}
+
+/* 작성 취소 버튼 */
+#articleWriteForm > div.mt-2.clearfix > a {
+    padding: 0 13px;
+    margin-right: 5px;
+    height: 35px;
+    border: 2px solid #495057;
+    background-color: #495057;
+    color: #f8f9fa;
+    border-radius: 13px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    outline: none;
+}
+
+#articleWriteForm > div.mt-2.clearfix > a:hover {
+    background-color: #868e96;
+    border: 2px solid #868e96;
+    color: #f8f9fa;
+}
+
+#articleWriteForm > div.mt-2.clearfix > a:active {
+    box-shadow: none;
+    border: 2px solid #adb5bd;
+    background-color: #adb5bd;
+    
+}
+
+/* 설문 추가 버튼 */
+#addPollBtn {
+    border: 2px solid #0c8599;
+    background-color: #0c8599;
+    color: #f1f3f5;
+    font-weight: bolder;
+    height: 35px;
+    border-radius: 13px;
+    transition: all 0.2s;
+    outline: none;
+}
+
+#addPollBtn:hover {
+    background-color: #1098ad;
+    border: 2px solid #1098ad;
+}
+
+#addPollBtn:active {
+    box-shadow: none;
+    border: 2px solid #15aabf;
+    background-color: #15aabf;
+}
+
+/* 글 작성 버튼 */
+#article-write-button {
+    border: 2px solid #1971c2;
+    background-color: #1971c2;
+    color: #f1f3f5;
+    font-weight: bolder;
+    height: 35px;
+    padding-top: 5px;
+    margin-right: 1px;
+    border-radius: 13px;
+    transition: all 0.2s;
+    outline: none;
+}
+
+#article-write-button:hover {
+    border: 2px solid #1c7ed6;
+    background-color: #1c7ed6;
+    color: white;
+}
+
+#article-write-button:active {
+    box-shadow: none;
+}
+
+#article-write-button:focus {
+    border: 2px solid #228be6;
+    background-color: #228be6;
+    color: white;
+}
