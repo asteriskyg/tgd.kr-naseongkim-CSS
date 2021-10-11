@@ -6,15 +6,6 @@
 깔끔한 킹게더를 보고 싶다면 한 번 사용해보시기 바랍니다.<br>
 김나성 트게더 안에서만 스타일이 적용됩니다.
 
-**현재 적용된 페이지 목록**
-- 메인 페이지
-- 개별 카테고리
-- 게시물 상세페이지
-
-
-**다음 업데이트 예정**
-- 게시물 작성, 수정
-
 
 **써보는 방법**
 1. 사용하는 웹 브라우저 맞게 Stylus라는 확장 프로그램을 설치해주세요. ([크롬](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)) ([파이어폭스](https://addons.mozilla.org/ko/firefox/addon/styl-us/))
