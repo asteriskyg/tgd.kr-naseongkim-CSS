@@ -211,7 +211,7 @@ i.fa.fa-user {
 
 /* kns10 아이콘 (뒤) */
 #board-info #viewers-area:after {
-    content:"| 테마 빌드 211012.01D"
+    content:"| 테마 빌드 211013.01D"
 }
 
 #board-info #board-info-bottom {
@@ -365,6 +365,7 @@ i.fa.fa-user {
     color: #e9ecef !important;
 }
 
+/* 열람한 게시물 */
 #article-list > .article-list-row > .item > .list-title > a:visited {
     color: #868e96 !important;
 }
@@ -461,7 +462,7 @@ i.fa.fa-user {
 
 /* 현재 보고 있는 게시물 제목 */
 #article-list > .article-list-row.active > .item > .list-title > a {
-    color: #f8f9fa !important;
+    color: #868e96 !important;
 }
 
 /* 인기글 필터 버튼 (일반) */
