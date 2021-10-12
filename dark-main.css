@@ -33,6 +33,7 @@ header #right-search-form > input[type=text] {
     box-shadow: none;
     border: 2px solid #495057;
     background-color: #495057;
+    filter: none;
     color: #f8f9fa;
     border-radius: 15px;
     padding: 10px 15px;
