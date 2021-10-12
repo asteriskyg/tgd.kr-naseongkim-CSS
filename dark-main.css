@@ -60,6 +60,7 @@ header #right-search-form > #right-search-btn {
     background-color: #495057;
     color: #f8f9fa;
     outline: none;
+    filter: none;
     box-shadow: none;
     transition: all 0.2s;
 }
