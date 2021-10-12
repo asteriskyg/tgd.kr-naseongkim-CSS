@@ -135,7 +135,7 @@ i.fa.fa-user {
 
 /* kns10 아이콘 (뒤) */
 #board-info #viewers-area:after {
-    display: none;
+    content:"| 테마 빌드 211012.01"
 }
 
 /* 스트리머 프로필 사진 (원형) */
@@ -369,3 +369,5 @@ i.fa.fa-user {
 #article-list #boardSearchForm {
     margin: 20px auto;
 }
+
+/* 테스트 주석 */

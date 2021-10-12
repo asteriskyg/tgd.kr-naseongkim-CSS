@@ -211,7 +211,7 @@ i.fa.fa-user {
 
 /* kns10 아이콘 (뒤) */
 #board-info #viewers-area:after {
-    display: none;
+    content:"| 테마 빌드 211012.01"
 }
 
 #board-info #board-info-bottom {
