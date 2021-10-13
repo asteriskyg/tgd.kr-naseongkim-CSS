@@ -1,5 +1,4 @@
 /* 게시물 작성, 수정 */
-
 #main #main-content > div.frame {
     padding: 0;
 }
@@ -24,8 +23,6 @@
 }
 
 /* 카테고리 선택 */
-
-
 #articleWriteForm > div.row.mt-2 > div.col-xs-2.left > select {
     height: 40px;
     border-radius: 15px;
@@ -175,7 +172,6 @@ a.custom-badge-link.active {
     box-shadow: none;
     border: 2px solid #adb5bd;
     background-color: #adb5bd;
-    
 }
 
 /* 글 관리 컨테이너 */
@@ -215,7 +211,6 @@ a.custom-badge-link.active {
     box-shadow: none;
     border: 2px solid #adb5bd;
     background-color: #adb5bd;
-    
 }
 
 /* 설문 추가 버튼 */
@@ -269,4 +264,8 @@ a.custom-badge-link.active {
     border: 2px solid #228be6;
     background-color: #228be6;
     color: white;
+}
+
+#articleWriteForm > div:nth-child(4) > div {
+    padding: 20px;
 }

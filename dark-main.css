@@ -1,6 +1,10 @@
 /* main.css */
 /* 배경 없애기 */
-html, body, header, footer, #content-area {
+html,
+body,
+header,
+footer,
+#content-area {
     background-image: none !important;
     background-color: #202020;
 }
@@ -201,7 +205,7 @@ i.fa.fa-user {
 
 /* kns10 아이콘 (뒤) */
 #board-info #viewers-area:after {
-    content:"| 테마 빌드 211013.03D"
+    content: "| 테마 빌드 211013.04D"
 }
 
 #board-info #board-info-bottom {

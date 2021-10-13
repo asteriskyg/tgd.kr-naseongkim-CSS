@@ -455,21 +455,25 @@
 
 /* 댓글 작성 컴포넌트 */
 .fr-box {
-    background-color: #495057;
-    border-radius: 20px 20px 0 0;
-    border: 2px solid #343a40;
+    border-radius: 20px;
     border-bottom: 0;
-    padding: 20px;
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.07)
 }
 
 /* 댓글 버튼 컨테이너 */
 #comment-write-form #comment-write-button-area {
-    background-color: #495057;
-    margin: 0;
-    padding: 0 20px 20px 20px;
-    border-radius: 0 0 20px 20px;
-    border: 2px solid #343a40;
+    margin-top: 20px;
+    padding-right: 1px;
+    border-radius: 20px;
     border-top: 0;
+}
+
+.fr-separator {
+    display: none;
+}
+
+#emoticons-1 > i {
+    margin-top: 10px;
 }
 
 #comment-write-button-area > label {
@@ -622,24 +626,368 @@
     border-bottom: 0;
     background-color: #212529;
     border-radius: 20px 20px 0 0 !important;
+    padding: 5px;
+}
+
+.fr-toolbar.fr-top {
+    box-shadow: none;
 }
 
 .fr-box.fr-basic.fr-top .fr-wrapper {
-    background-color: #343a40;
+    background-color: #495057;
     border: 2px solid #212529;
     border-top: 0;
     border-radius: 0 0 20px 20px;
-}
-    
-.fr-box.fr-basic .fr-element {
-    color: #f8f9fa;
+    box-shadow: none;
 }
 
-.fr-toolbar .fr-command.fr-btn i {
+.fr-toolbar .fr-command.fr-btn {
+    color: white;
+    border-radius: 15px;
+    transition: all 0.2s;
+}
+
+.fr-box.fr-basic .fr-element {
     color: #f8f9fa;
 }
 
 .fr-toolbar .fr-command.fr-btn:hover {
     background-color: #343a40;
     border-radius: 15px;
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-active {
+    background-color: #343a40;
+    color: #4dabf7;
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-active:focus {
+    background-color: #343a40;
+    color: #4dabf7;
+}
+
+.fr-popup {
+    border: 2px solid #adb5bd;
+    background-color: #495057;
+    top: -7px;
+    border-radius: 10px;
+}
+
+.fr-popup .fr-arrow {
+    top: -6px;
+    margin-left: -7px !important;
+    border-bottom: 5px solid #adb5bd;
+}
+
+.fr-popup .fr-buttons {
+    background-color: #343a40;
+    border-radius: 10px 10px 0 0;
+    box-shadow: none;
+    padding: 0;
+}
+
+.fr-popup .fr-colors-tabs {
+    margin: 0;
+    box-shadow: none;
+}
+
+.fr-popup .fr-colors-tabs .fr-colors-tab.fr-selected-tab {
+    background-color: #495057 !important;
+    color: #f8f9fa;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.2s;
+}
+
+.fr-popup .fr-colors-tabs .fr-colors-tab {
+    background-color: #343a40;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.2s;
+    color: #f8f9fa;
+}
+
+.fr-popup .fr-colors-tabs .fr-colors-tab:hover {
+    background-color: #313131;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.2s;
+    color: #adb5bd;
+}
+
+.fr-popup .fr-color-set {
+    margin: -4px;
+    padding: 10px;
+}
+
+.fr-popup .fr-color-set > span {
+    margin: 4px;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.fr-popup .fr-color-set > span:last-child {
+    border: 2px solid #f8f9fa !important;
+    color: #f8f9fa;
+    transition: all 0.2s;
+}
+
+.fr-popup .fr-color-set > span:last-child > i {
+    bottom: -2px;
+    left: -2px;
+    transition: all 0.2s;
+}
+
+.fr-popup .fr-color-set > span:last-child:hover > i {
+    bottom: -6px;
+    left: -5px;
+    font-size: 11px;
+    color: #f8f9fa;
+}
+
+.fr-popup .fr-color-set > span:hover {
+    height: 26px;
+    width: 26px;
+    margin: 7px;
+    border-radius: 8px;
+    outline: 0;
+}
+
+.fr-popup .fr-color-set > span .fr-selected-color {
+    transition: all 0.2s;
+}
+
+.fr-popup .fr-color-set > span .fr-selected-color:hover {
+    top: -2px;
+    font-size: 11px;
+}
+
+.fr-popup .fr-color-hex-layer {
+    display: flex !important;
+    justify-content: end;
+    padding-top: 0;
+}
+
+.fr-popup .fr-input-line input + label {
+    display: none;
+}
+
+.fr-popup .fr-color-hex-layer .fr-input-line {
+    width: auto;
+    padding: 0;
+}
+
+/* .fr-popup .fr-input-line input[type=text] {
+    padding: 0 15px;
+    border: 2px solid #f8f9fa;
+    border-radius: 13px;
+    color: #f8f9fa;
+    width: 200px;
+    height: 35px;
+} */
+.fr-popup .fr-input-line input[type=text] {
+    box-shadow: none;
+    border: 2px solid #868e96;
+    background-color: #868e96;
+    color: #f8f9fa;
+    border-radius: 15px;
+    padding: 10px 15px;
+    transition: all 0.2s;
+    height: 40px;
+    outline: 0;
+    margin: 0;
+}
+
+.fr-popup .fr-input-line input[type=text]:hover {
+    border: 2px solid #1971c2;
+}
+
+.fr-popup .fr-input-line input[type=text]:focus {
+    border: 2px solid #228be6;
+    box-shadow: 0 0 20px 0 rgba(82, 63, 105, 0.13);
+}
+
+
+.fr-popup .fr-color-hex-layer .fr-action-buttons button.fr-command {
+    border: 2px solid #1971c2;
+    background-color: #1971c2;
+    color: #f1f3f5;
+    font-weight: bolder;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 13px;
+    transition: all 0.2s;
+    outline: none;
+    width: 60px;
+}
+
+.fr-popup .fr-color-hex-layer .fr-action-buttons {
+    float: none;
+    width: auto;
+    margin-left: 10px;
+    background-color: #1971c2;
+    border-radius: 13px;
+    height: 40px;
+}
+
+.fr-popup .fr-color-hex-layer .fr-action-buttons:hover {
+    background-color: #1c7ed6;
+}
+
+.fr-popup .fr-color-hex-layer .fr-action-buttons button.fr-command:hover {
+    border: 2px solid #1c7ed6;
+    background-color: #1c7ed6;
+    color: white;
+}
+
+.fr-popup .fr-color-hex-layer .fr-action-buttons button.fr-command:active {
+    box-shadow: none;
+}
+
+.fr-popup .fr-checkbox-line {
+    color: white;
+}
+
+.fr-popup .fr-checkbox {
+    background-color: #868e96;
+    border-radius: 3px;
+}
+
+/* 글 쓰기 버튼 */
+.fr-popup .fr-action-buttons button.fr-command {
+    border: 2px solid #1971c2;
+    background-color: #1971c2;
+    color: #f1f3f5;
+    font-weight: bolder;
+    padding-top: 8px;
+    height: 35px;
+    border-radius: 13px;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.fr-popup .fr-action-buttons button.fr-command:hover {
+    border: 2px solid #1c7ed6;
+    background-color: #1c7ed6;
+    color: #f8f9fa;
+}
+
+.fr-popup .fr-action-buttons button.fr-command:active {
+    box-shadow: none;
+    border: 2px solid #1c7ed6;
+    background-color: #1c7ed6;
+    color: #f8f9fa;
+}
+
+.fr-popup.emoticons {
+    padding: 3px;
+}
+
+.fr-popup .fr-emoticon {
+    background-color: #343a40;
+    margin: 3px;
+    padding: 6px;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.fr-popup .fr-emoticon:hover {
+    background-color: #868e96;
+}
+
+.fr-popup .fr-emoticon img {
+    margin-top: -7px;
+}
+
+.fr-popup .fr-image-upload-layer {
+    border: 3px dashed #868e96;
+}
+
+.fr-popup .fr-image-upload-layer:hover {
+    border: 3px solid #4dabf7;
+}
+
+.fr-popup .fr-layer.fr-active {
+    border-radius: 10px;
+    color: #f8f9fa;
+    background-color: #495057;
+    transition: all 0.2s;
+}
+
+.fr-box.fr-code-view textarea.fr-code {
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-dropdown::after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #f8f9fa;
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-dropdown:after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #f8f9fa !important;
+}
+
+.fr-command.fr-btn.fr-options:hover {
+    border: 0;
+}
+
+.fr-command.fr-btn.fr-options:hover::after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #f8f9fa;
+}
+
+.fr-desktop .fr-command:hover,
+.fr-desktop .fr-command:focus,
+.fr-desktop .fr-command.fr-btn-hover,
+.fr-desktop .fr-command.fr-expanded {
+    outline: 0;
+    color: #f8f9fa;
+    background: #343a40;
+    border-left: 0 !important;
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active {
+    background-color: #343a40;
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active:hover {
+    background-color: #343a40 !important;
+}
+
+.fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active:hover::after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #f8f9fa !important;
+}
+
+.fr-command.fr-btn.fr-active + .fr-dropdown-menu {
+    background-color: #495057;
+    border: 2px solid #343a40;
+}
+
+.fr-command.fr-btn + .fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list li a {
+    background-color: #495057;
+    color: #f8f9fa;
+    transition: all 0.2s;
+}
+
+.fr-command.fr-btn + .fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list li a:hover {
+    background-color: #868e96;
+    color: #f8f9fa;
+}
+
+/* 스크롤바 디자인 */
+.fr-popup.emoticons::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 0 8px 8px 0;
+    background-color: #343a40;
+}
+
+.fr-popup.emoticons::-webkit-scrollbar-thumb {
+    background-color: #868e96;
+    border-radius: 4px 8px 8px 4px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
 }
