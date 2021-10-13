@@ -48,7 +48,7 @@ header #right-search-form > input[type=text]:hover {
 
 header #right-search-form > input[type=text]:focus {
     border: 2px solid #228be6;
-    box-shadow: 0 0 20px 0 rgb(82 63 105 / 13%);
+    box-shadow: 0 0 20px 0 rgba(82, 63, 105, 0.13);
 }
 
 header #right-search-form > #right-search-btn {
@@ -109,7 +109,7 @@ header #header-bar #header-menu-right > div > a {
 div.menu-wrapper {
     border: 2px solid #212529 !important;
     background-color: #212529;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 7%)
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.07)
 }
 
 /* 트게더 전체 메뉴 (상단) */
@@ -211,7 +211,7 @@ i.fa.fa-user {
 
 /* kns10 아이콘 (뒤) */
 #board-info #viewers-area:after {
-    content:"| 테마 빌드 211013.01D"
+    content:"| 테마 빌드 211013.02D"
 }
 
 #board-info #board-info-bottom {
@@ -618,12 +618,10 @@ i.fa.fa-user {
 
 #article-list #boardSearchForm > input.form-control:focus {
     border: 2px solid #228be6;
-    box-shadow: 0 0 20px 0 rgb(82 63 105 / 13%);
+    box-shadow: 0 0 20px 0 rgba(82, 63, 105, 0.13);
 }
 
 /* 게시글 검색 하단 여백 */
 #article-list #boardSearchForm {
     margin: 20px auto;
 }
-
-/* 테스트 주석 */

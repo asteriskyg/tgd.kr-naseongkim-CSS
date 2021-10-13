@@ -6,7 +6,7 @@
     margin-bottom: 1em;
     border-radius: 20px;
     border: 2px solid #f1f3f5;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
 }
 
 /* 글 작성 컨테이너 (위) */
@@ -17,7 +17,7 @@
     border: 2px solid #f1f3f5;
     border-bottom: 0;
     border-radius: 20px 20px 0 0;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
 }
 
 /* 카테고리 선택 */
@@ -35,7 +35,7 @@
 
 #articleWriteForm > div.row.mt-2 > div.col-xs-2.left > select:focus {
     border: 2px solid #0094ff;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
 }
 
 #articleWriteForm > div.row.mt-2 > div.col-xs-2.left {
@@ -57,7 +57,7 @@
 
 #title:focus {
     border: 2px solid #0094ff;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
 }
 
 #articleWriteForm > div.row.mt-2 > div.col-xs-10.right {
@@ -111,7 +111,7 @@
     border: 2px solid #f1f3f5;
     border-radius: 20px;
     padding: 20px 0 0 20px;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
     margin: 20px 0 !important;
 }
 
@@ -142,7 +142,7 @@
     border: 2px solid #f1f3f5;
     border-radius: 20px;
     padding: 20px;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
     margin-top: 154px !important;
 }
 

@@ -4,7 +4,7 @@
     margin-bottom: 1em;
     border-radius: 20px;
     padding: 1em !Important;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
 }
 
 /* 게시글 제목 */
@@ -14,7 +14,7 @@
     border-radius: 20px 20px 0 0;
     border: 2px solid #f1f3f5;
     border-bottom: none;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
     z-index: 1;
 }
 
@@ -22,7 +22,7 @@
 #article-info .article-profile-img {
     border-radius: 15px;
     border: 2px solid #f1f3f5;
-    box-shadow: 0 0 10px 0 rgb(82 63 105 / 10%);
+    box-shadow: 0 0 10px 0 rgba(82, 63, 105, 0.1);
 }
 
 /* 게시물 작성자 닉네임 */
@@ -45,7 +45,7 @@
     margin-bottom: 1em;
     padding: 13px 15px 0 15px;
     border-radius: 0 0 20px 20px;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
 }
 
 /* 게시물 본문 */
@@ -54,7 +54,7 @@
     border-radius: 20px 20px 0 0;
     border: 2px solid #f1f3f5;
     border-bottom: none;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
     padding: 20px;
     word-break: keep-all !important;
 }
@@ -95,7 +95,7 @@
     padding: 20px;
     margin: 1em 0;
     border-radius: 20px;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
     border: 2px solid #f1f3f5;
 }
 
@@ -150,7 +150,7 @@
     background-color: white;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
     border: 2px solid #f1f3f5;
     margin-bottom: 1em;
 }
@@ -170,7 +170,7 @@
     margin-bottom: 20px;
     border-radius: 20px;
     border: 2px solid #f1f3f5;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
 }
 
 /* 베스트 댓글 - 댓글 헤더 */
@@ -196,7 +196,7 @@
     margin-bottom: 20px;
     border-radius: 20px;
     border: 2px solid #f1f3f5;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
     padding: 0;
 }
 
@@ -382,7 +382,7 @@
     border-radius: 0 0 20px 20px;
     border: 2px solid #f1f3f5;
     border-top: 0;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 7%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.07);
 }
 
 /* 대댓글 작성 컴포넌트 */
@@ -433,7 +433,7 @@
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 1em;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
 }
 
 #article-neighbor-list > div {

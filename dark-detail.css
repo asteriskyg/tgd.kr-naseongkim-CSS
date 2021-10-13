@@ -30,7 +30,7 @@
     border: 2px solid #212529;
     color: #f8f9fa;
     border-bottom: none;
-    box-shadow: 0 0 30px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
     z-index: 1;
 }
 
@@ -61,7 +61,7 @@
     margin-bottom: 1em;
     padding: 13px 15px 0 15px;
     border-radius: 0 0 20px 20px;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
 }
 
 /* 게시물 본문 */
@@ -71,7 +71,7 @@
     border-radius: 20px 20px 0 0;
     border: 2px solid #212529;
     border-bottom: none;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
     padding: 20px;
     word-break: keep-all !important;
 }
@@ -117,7 +117,7 @@
     padding: 20px;
     margin: 1em 0 20px 0;
     border-radius: 20px;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
     border: 2px solid #212529;
 }
 
@@ -192,7 +192,7 @@
     background-color: #343a40;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
     margin-bottom: 1em;
 }
 
@@ -219,7 +219,7 @@
     margin-bottom: 20px;
     border-radius: 20px;
     border: 2px solid #1864ab;
-    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
 }
 
 /* 베스트 댓글 - 댓글 헤더 */
