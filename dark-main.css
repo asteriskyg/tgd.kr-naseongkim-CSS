@@ -1,18 +1,8 @@
 /* main.css */
 /* 배경 없애기 */
-html body header {
+html, body, header, footer, #content-area {
     background-image: none !important;
     background-color: #202020;
-}
-
-/* 배경 없애기 */
-#content-area {
-    background-color: #202020;
-}
-
-/* 푸터 그림자 */
-footer {
-    background: linear-gradient(180deg, #202020 10%, #1e1e1e 100%);
 }
 
 /* 스크롤바 디자인 */
@@ -211,7 +201,7 @@ i.fa.fa-user {
 
 /* kns10 아이콘 (뒤) */
 #board-info #viewers-area:after {
-    content:"| 테마 빌드 211013.02D"
+    content:"| 테마 빌드 211013.03D"
 }
 
 #board-info #board-info-bottom {

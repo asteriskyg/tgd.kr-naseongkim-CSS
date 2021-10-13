@@ -1,18 +1,8 @@
 /* main.css */
 /* 배경 없애기 */
-html body header {
+html, body, header, footer, #content-area {
     background-image: none !important;
     background-color: #f8f9fa;
-}
-
-/* 배경 없애기 */
-#content-area {
-    background-color: #f8f9fa;
-}
-
-/* 푸터 그림자 */
-footer {
-    background: linear-gradient(180deg, #f8f9fa 10%, #dbe0e6 100%);
 }
 
 /* 스크롤바 디자인 */
@@ -135,7 +125,7 @@ i.fa.fa-user {
 
 /* kns10 아이콘 (뒤) */
 #board-info #viewers-area:after {
-    content:"| 테마 빌드 211013.01L"
+    content:"| 테마 빌드 211013.02L"
 }
 
 /* 스트리머 프로필 사진 (원형) */
