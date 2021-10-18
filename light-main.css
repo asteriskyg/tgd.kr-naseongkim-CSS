@@ -1,4 +1,11 @@
 /* main.css */
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard, Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', sans-serif;
+}
+
 /* 배경 없애기 */
 html, body, header, footer, #content-area {
     background-image: none !important;
