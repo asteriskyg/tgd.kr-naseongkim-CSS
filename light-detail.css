@@ -712,6 +712,7 @@
 }
 
 .fr-box.fr-code-view textarea.fr-code {
+    font-family: 'D2Coding', monospace;
     background-color: #f8f9fa;
     color: #212529;
 }

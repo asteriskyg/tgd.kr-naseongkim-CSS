@@ -1,6 +1,7 @@
 /* main.css */
 
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+@import url("//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css");
 
 * {
     font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard, Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', sans-serif;
@@ -132,7 +133,7 @@ i.fa.fa-user {
 
 /* kns10 아이콘 (뒤) */
 #board-info #viewers-area:after {
-    content: "| 테마 빌드 211018.01L"
+    content: "| 테마 빌드 211018.02L"
 }
 
 /* 스트리머 프로필 사진 (원형) */
