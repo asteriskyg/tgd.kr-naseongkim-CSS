@@ -193,7 +193,7 @@ i.fa.fa-user {
 }
 
 #article-list > .article-list-row > .item:hover {
-    background-color: #f6f7f9;
+    background-color: #f1f3f5;
 }
 
 /* 게시물 리스트 컨테이너 */
@@ -239,26 +239,25 @@ i.fa.fa-user {
 
 /* 현재 보고 있는 게시물 */
 #article-list > .article-list-row.active > .item {
-    background-color: #e7f5ff;
+    background-color: #f1f3f5;
 }
 
 /* 현재 보고 있는 게시물 제목 */
 #article-list > .article-list-row.active > .item > .list-title > a {
-    color: black !important;
+    color: #cccccc !important;
 }
 
 /* 인기글 필터 버튼 (일반) */
 #article-list #article-list-menu > .btn.best.enable {
     background-color: #efc839;
     color: white;
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 #article-list #article-list-menu > .btn.best.enable:hover {
     background-color: #e2b512;
     border: 2px solid #e2b512;
-    color: white;
-    font-weight: bolder;
+    color: #212529;
 }
 
 /* 인기글 필터 버튼 (선택됨) */
