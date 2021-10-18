@@ -13,7 +13,7 @@
 #articleWriteForm > div.row.mt-2 {
     background-color: white;
     margin: 0;
-    padding: 20px 20px 0 20px;
+    padding: 20px;
     border: 2px solid #f1f3f5;
     border-bottom: 0;
     border-radius: 20px 20px 0 0;
@@ -209,4 +209,9 @@
 #article-write-button:active {
     border: 2px solid #1c7ed6;
     background-color: #1c7ed6;
+}
+
+#articleWriteForm > div:nth-child(4) > div {
+    background-color: white;
+    padding: 0 20px 20px 20px;
 }
