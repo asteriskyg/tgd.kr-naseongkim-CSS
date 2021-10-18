@@ -312,17 +312,25 @@ i.fa.fa-user {
 #article-list #article-list-menu > .btn.best {
     border: 2px solid #efc839;
     border-radius: 13px;
-    color: #efc839;
-    font-weight: bolder;
+    color: #212529 !important;
     height: 35px;
-    padding-top: 8px;
+    padding-top: 7px;
     margin-left: 20px;
     transition: all 0.2s;
+    font-weight: 500;
 }
 
 #article-list #article-list-menu > .btn.best:hover {
     background-color: #efc839;
-    color: white;
+    color: #212529;
+}
+
+#article-list #article-list-menu > .btn.best > i {
+    margin-right: 3px;
+}
+
+#article-list #article-list-menu > .btn.best > i::before {
+    top: 0;
 }
 
 /* 글 쓰기 버튼 */
@@ -332,10 +340,14 @@ i.fa.fa-user {
     font-weight: bolder;
     background-color: white;
     height: 35px;
-    padding-top: 8px;
+    padding-top: 7px;
     margin-right: 20px;
     border-radius: 13px;
     transition: all 0.2s;
+}
+
+#article-list #article-list-menu > .btn.write > i {
+    margin-right: 3px;
 }
 
 #article-list #article-list-menu > .btn.write:hover {
