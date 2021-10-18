@@ -227,6 +227,54 @@ i.fa.fa-user {
     border-left: 0;
 }
 
+/* 게시물 추천 수 */
+#article-list > .article-list-row > .item > .list-header {
+    padding-left: 6px;
+}
+
+#article-list > .article-list-row > .item > .list-header > span {
+    display: block;
+    width: 34px;
+    height: 21px;
+    padding-top: 5px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #4dabf7;
+}
+
+/* 게시물에 추천 수가 0일 때 */
+#article-list > .article-list-row > .item > .list-header.v0 > span {
+    display: none;
+}
+
+/* 게시물 작성자 */
+#article-list > .article-list-row > .item > .list-title > .list-writer {
+    border: 0;
+    padding: 0 3px;
+    text-align: right;
+}
+
+#article-list > .article-list-row > .item > .list-title > .list-writer > span {
+    border: 0;
+    padding: 0 3px;
+}
+
+/* 게시물 카테고리 */
+
+#article-list > .article-list-row > .item > .list-title > .list-category {
+    margin-top: 1px;
+    margin-right: 0;
+    border: 0;
+    padding: 0 5px;
+}
+
+#article-list > .article-list-row > .item > .list-title > .list-category > span {
+    display: initial;
+    padding: 5px 8px;
+    border-radius: 8px;
+    background-color: #ffffff00;
+}
+
 /* 게시물 리스트 (작성시간) */
 #article-list > .article-list-row {
     border-right: 0;
