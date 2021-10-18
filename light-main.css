@@ -10,7 +10,7 @@
 /* 배경 없애기 */
 html, body, header, footer, #content-area {
     background-image: none !important;
-    background-color: #f8f9fa;
+    background-color: #f1f3f5;
 }
 
 /* 스크롤바 디자인 */
