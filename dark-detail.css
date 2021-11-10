@@ -989,3 +989,123 @@
     background-clip: padding-box;
     border: 2px solid transparent;
 }
+
+/* 투표 영역 */
+#article-poll-form > .panel {
+    border-radius: 16px;
+    border: 2px solid #1864ab;
+    background-color: #495057;
+}
+
+#article-poll-form > .panel > .panel-heading {
+    border-radius: 14px 14px 0 0;
+    background-color: #1864ab;
+    padding: 13px 15px;
+    color: #f8f9fa;
+    border: none;
+}
+
+#article-poll-form > .panel > .panel-body > .list-group {
+    margin-bottom: 0;
+}
+
+#article-poll-form > .panel > .panel-body > .list-group > .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px 5px;
+    margin-bottom: 10px;
+    background-color: #343a40;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.2s;
+}
+
+#article-poll-form > .panel > .panel-body > .list-group > .list-group-item:last-child {
+    margin-bottom: 0;
+}
+
+#article-poll-form > .panel > .panel-body > .list-group > .list-group-item:hover {
+    background-color: #1c7ed6;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+#article-poll-form > .panel > .panel-footer {
+    border-radius: 0 0 13px 13px;
+    background-color: #495057;
+    border: none;
+    padding: 0 15px 15px 15px;
+}
+
+
+/* 투표 버튼 (투표하기) */
+#article-poll-form > .panel > .panel-footer > #doVoteBtn {
+    padding: 0 13px;
+    height: 35px;
+    border: 2px solid #1c7ed6;
+    background-color: #1c7ed6;
+    color: #f8f9fa;
+    border-radius: 13px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    outline: none;
+}
+
+#article-poll-form > .panel > .panel-footer > #doVoteBtn:hover {
+    background-color: #228be6;
+    border: 2px solid #228be6;
+    color: #f8f9fa;
+}
+
+#article-poll-form > .panel > .panel-footer > #doVoteBtn:active {
+    box-shadow: none;
+    border: 2px solid #1971c2;
+    background-color: #1971c2;
+}
+
+/* 투표 버튼 (결과보기) */
+#article-poll-form > .panel > .panel-footer > #showResultVoteBtn {
+    padding: 0 13px;
+    height: 35px;
+    border: 2px solid #0ca678;
+    background-color: #0ca678;
+    color: #f8f9fa;
+    border-radius: 13px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    outline: none;
+    margin-right: 5px;
+}
+
+#article-poll-form > .panel > .panel-footer > #showResultVoteBtn:hover {
+    background-color: #12b886;
+    border: 2px solid #12b886;
+    color: #f8f9fa;
+}
+
+#article-poll-form > .panel > .panel-footer > #showResultVoteBtn:active {
+    box-shadow: none;
+    border: 2px solid #099268;
+    background-color: #099268;
+}
+
+#article-poll-form > .panel > .panel-body > .list-group > .list-group-item > .choice-gauge-back {
+    background: #e7f5ff !important;
+    transition: all 0.2s;
+}
+
+#article-poll-form > .panel > .panel-body > .list-group > .list-group-item:hover > .choice-gauge-back {
+    background: #1971c2 !important;
+}
+
+#article-poll-form > .panel > .panel-body > .list-group > .list-group-item > .choice-gauge-back > .choice-gauge {
+    background: #1971c2 !important;
+    transition: all 0.2s;
+}
+
+#article-poll-form > .panel > .panel-body > .list-group > .list-group-item:hover > .choice-gauge-back > .choice-gauge {
+    background: #e7f5ff !important;
+}
