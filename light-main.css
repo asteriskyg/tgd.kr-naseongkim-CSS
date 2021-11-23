@@ -163,10 +163,16 @@ i.fa.fa-user {
 /* 게시판 카테고리 개별 버튼 */
 #article-list #article-list-category > a {
     border-radius: 20px;
-    margin-right: 7.4px;
+    margin-right: 5.4px;
     font-size: 11px;
     background-color: #d0ebff;
+    font-weight: 600;
     transition: all 0.2s;
+}
+
+#article-list > .article-list-row > .item > .list-title > a {
+    font-weight: 400;
+    font-size: 14px;
 }
 
 #article-list #article-list-category > a:hover {
@@ -247,6 +253,13 @@ i.fa.fa-user {
     display: none;
 }
 
+span.a-badge i.fa.fa-picture-o {
+    color: #469c68;
+    vertical-align: -3px !important;
+}
+
+
+
 /* 게시물 작성자 */
 #article-list > .article-list-row > .item > .list-title > .list-writer {
     border: 0;
@@ -257,6 +270,8 @@ i.fa.fa-user {
 #article-list > .article-list-row > .item > .list-title > .list-writer > span {
     border: 0;
     padding: 0 3px;
+    font-weight: 600 !important;
+    font-size: 14px;
 }
 
 /* 게시물 카테고리 */
@@ -280,6 +295,10 @@ i.fa.fa-user {
     border-right: 0;
 }
 
+#article-list>.article-list-row>.item>.list-time {
+    font-weight: 600;
+}
+
 #main #main-content > div.frame {
     background: none;
     border: 0 solid #f1f3f5;
@@ -296,21 +315,9 @@ i.fa.fa-user {
 }
 
 /* 인기글 필터 버튼 (일반) */
-#article-list #article-list-menu > .btn.best.enable {
-    background-color: #efc839;
-    color: white;
-    font-weight: 500;
-}
-
-#article-list #article-list-menu > .btn.best.enable:hover {
-    background-color: #e2b512;
-    border: 2px solid #e2b512;
-    color: #212529;
-}
-
-/* 인기글 필터 버튼 (선택됨) */
 #article-list #article-list-menu > .btn.best {
-    border: 2px solid #efc839;
+    border: 2px solid #ffd43b;
+    background-color: #ffffff00;
     border-radius: 13px;
     color: #212529 !important;
     height: 35px;
@@ -321,8 +328,8 @@ i.fa.fa-user {
 }
 
 #article-list #article-list-menu > .btn.best:hover {
-    background-color: #efc839;
-    color: #212529;
+    border-color: #ffd43b;
+    background-color: #ffd43b;
 }
 
 #article-list #article-list-menu > .btn.best > i {
@@ -331,6 +338,18 @@ i.fa.fa-user {
 
 #article-list #article-list-menu > .btn.best > i::before {
     top: 0;
+}
+
+/* 인기글 필터 버튼 (선택됨) */
+#article-list #article-list-menu > .btn.best.enable {
+    border-color: #ffd43b;
+    background-color: #ffd43b;
+    font-weight: 500;
+}
+
+#article-list #article-list-menu > .btn.best.enable:hover {
+    background-color: #fcc419;
+    border: 2px solid #fcc419;
 }
 
 /* 글 쓰기 버튼 */
@@ -431,5 +450,3 @@ i.fa.fa-user {
 #article-list #boardSearchForm {
     margin: 20px auto;
 }
-
-/* 테스트 주석 */
