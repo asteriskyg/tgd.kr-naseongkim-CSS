@@ -129,6 +129,7 @@ a.shortcut-link:last-child {
 /* 게시판 접속자 수 */
 #board-info #viewers-area {
     margin-top: -4px;
+    z-index: 1;
 }
 
 /* kns10 아이콘 (앞) */
@@ -138,7 +139,22 @@ i.fa.fa-user {
 
 /* kns10 아이콘 (뒤) */
 #board-info #viewers-area:after {
-    content: "| 테마 빌드 211018.03L"
+    padding: 15px 0 15px 5px;
+    transition: all 0.2s;
+    background-color: #ffffff00;
+    content: "| 테마 빌드 211124.01L"
+}
+
+#board-info #viewers-area:hover:after {
+    color: #5c7cfa;
+    background-color: #ffffff;
+    font-weight: bold;
+    padding: 15px 15px;
+    margin-left: 5px;
+    border-radius: 1.2rem;
+    transition: all 0.2s;
+    box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.08);
+    content: "빌드 정보에 업데이트 로그 추가"
 }
 
 /* 스트리머 프로필 사진 (원형) */
