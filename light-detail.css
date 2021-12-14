@@ -164,7 +164,7 @@
 
 /* 게시물 댓글 영역 - 베스트 댓글 컨테이너 */
 #article-reply-area #reply-best-area {
-    padding: 20px 0;
+    padding: 20px 0 0 0;
 }
 
 #article-reply-area #reply-best-area:empty {
@@ -177,6 +177,10 @@
     border-radius: 20px;
     border: 2px solid #f1f3f5;
     box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
+}
+
+#article-reply-area #reply-best-area .reply:last-child {
+    margin-bottom: 0;
 }
 
 /* 베스트 댓글 - 댓글 헤더 */
