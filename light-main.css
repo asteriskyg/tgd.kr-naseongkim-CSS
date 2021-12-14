@@ -195,7 +195,7 @@ i.fa.fa-user {
 /* 게시판 카테고리 개별 버튼 */
 #article-list #article-list-category > a {
     border-radius: 20px;
-    margin-right: 5.4px;
+    margin-right: 5px;
     font-size: 11px;
     background-color: #d0ebff;
     font-weight: 600;
