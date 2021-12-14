@@ -77,10 +77,26 @@ a.shortcut-link:last-child {
     border-radius: 0 0 20px 20px;
 }
 
+#main-menu > div.menu-wrapper > #fav-shortcut-area > a {
+    padding: 10px;
+    transition: all 0.2s;
+}
+
 /* 트게더 전체 메뉴 리스트 아이콘 */
 #main-menu > div.menu-wrapper > a > em {
     color: #0094ff;
     margin-right: 6px;
+}
+
+#main-menu > div.menu-wrapper > #fav-shortcut-area > a > em {
+    margin-right: 6px;
+}
+
+#main-menu > div.menu-wrapper > #fav-shortcut-area > a > em > i::before {
+    content: "\f005";
+    filter: none;
+    top: 0;
+    position: relative;
 }
 
 /* 트게더 전체 메뉴 스페이서 */
