@@ -422,16 +422,24 @@ i.fa.fa-user {
 /* 게시물 작성자 */
 #article-list > .article-list-row > .item > .list-title > .list-writer {
     border: 0;
-    padding: 3px 3px 0 3px;
+    padding: 0;
     text-align: right;
 }
 
 #article-list > .article-list-row > .item > .list-title > .list-writer > span {
     color: #e9ecef !important;
     border: 0;
-    padding: 0 3px;
-    font-size: 14px;
-    font-weight: 600;
+    padding: 3px 0 0 0;
+    font-weight: 600 !important;
+    font-size: 100%;
+    width: auto;
+    height: auto;
+    line-height: 1;
+}
+
+#article-list > .article-list-row > .item > .list-title > .list-writer > span > img {
+    margin-top: -4px;
+    margin-right: 3px;
 }
 
 /* 게시물 작성 시간 */
