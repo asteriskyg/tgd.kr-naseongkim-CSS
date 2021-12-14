@@ -159,12 +159,16 @@
 
 /* 게시물 댓글 영역 헤더 */
 #article-reply-area > .header {
-    padding: 0 0 20px 0
+    padding: 0;
 }
 
 /* 게시물 댓글 영역 - 베스트 댓글 컨테이너 */
 #article-reply-area #reply-best-area {
-    padding: 0 0 20px 0;
+    padding: 20px 0;
+}
+
+#article-reply-area #reply-best-area:empty {
+    display: none;
 }
 
 /* 베스트 댓글 - 댓글 컨테이너 */
@@ -190,7 +194,11 @@
 
 /* 게시물 댓글 영역 - 일반 댓글 리스트 */
 #article-reply-area #reply-real-area {
-    padding: 0;
+    padding: 20px 0 0 0;
+}
+
+#article-reply-area #reply-real-area:empty {
+    display: none;
 }
 
 /* 일반 댓글 컨테이너 */
@@ -228,6 +236,10 @@
 /* 마지막 댓글 아래 공백 제거 */
 #article-reply-area #reply-real-area .reply:last-child {
     margin-bottom: 0;
+}
+
+#article-reply-area > .invisible {
+    display: none;
 }
 
 /* 댓글 수정 */
@@ -342,7 +354,6 @@
     border-radius: 13px;
     margin-top: 1em !important;
     margin-left: 0 !important;
-    margin-bottom: 1em !important;
     transition: all 0.2s;
 }
 
