@@ -158,7 +158,7 @@ i.fa.fa-user {
     padding: 15px 0 15px 5px;
     transition: all 0.2s;
     background-color: #ffffff00;
-    content: "| 테마 빌드 211124.01L"
+    content: "| 테마 빌드 211214.01L"
 }
 
 #board-info #viewers-area:hover:after {
@@ -170,7 +170,7 @@ i.fa.fa-user {
     border-radius: 1.2rem;
     transition: all 0.2s;
     box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.08);
-    content: "빌드 정보에 업데이트 로그 추가"
+    content: "스트리머 즐겨찾기 대응 | 댓글창 개선 | 작성자 노출 부분 수정"
 }
 
 /* 스트리머 프로필 사진 (원형) */
