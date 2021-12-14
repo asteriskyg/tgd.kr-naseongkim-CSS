@@ -377,11 +377,12 @@
 /* 댓글 작성 컨테이너 */
 #comment-write-form-area {
     padding: 0;
+    margin-top: 1.5em;
 }
 
 /* 대댓글 작성 컴포넌트 */
 #article-reply-area #reply-real-area .reply > .reply-content > #comment-write-form > div.fr-box.fr-ltr.fr-basic.fr-top {
-    margin: 20px 5px 0 5px;
+    margin: 20px 5px;
 }
 
 /* 대댓글 버튼 컨테이너 */
@@ -448,7 +449,7 @@
 
 .fr-box.fr-basic.fr-top .fr-wrapper {
     border: 2px solid #e9ecef;
-    background-color: #ffffff00;
+    background-color: #fff;
     border-top: 0;
     border-radius: 0 0 20px 20px;
     box-shadow: none;
