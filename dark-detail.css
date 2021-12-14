@@ -199,7 +199,7 @@
 
 /* 게시물 댓글 영역 헤더 */
 #article-reply-area > .header {
-    padding: 0 0 20px 0;
+    padding: 0;
 }
 
 #article-reply-area > .header > h5 {
@@ -212,7 +212,11 @@
 
 /* 게시물 댓글 영역 - 베스트 댓글 컨테이너 */
 #article-reply-area #reply-best-area {
-    padding: 0 0 20px 0;
+    padding: 20px 0 0 0;
+}
+
+#article-reply-area #reply-best-area:empty {
+    display: none;
 }
 
 /* 베스트 댓글 - 댓글 컨테이너 */
@@ -221,6 +225,10 @@
     border-radius: 20px;
     border: 2px solid #1864ab;
     box-shadow: 0 0 30px 0 rgba(82, 63, 105, 0.05);
+}
+
+#article-reply-area #reply-best-area .reply:last-child {
+    margin-bottom: 0;
 }
 
 /* 베스트 댓글 - 댓글 헤더 */
@@ -253,7 +261,11 @@
 
 /* 게시물 댓글 영역 - 일반 댓글 리스트 */
 #article-reply-area #reply-real-area {
-    padding: 0;
+    padding: 20px 0 0 0;
+}
+
+#article-reply-area #reply-real-area:empty {
+    display: none;
 }
 
 /* 일반 댓글 컨테이너 */
@@ -294,6 +306,10 @@
 /* 마지막 댓글 아래 공백 제거 */
 #article-reply-area #reply-real-area .reply:last-child {
     margin-bottom: 0;
+}
+
+#article-reply-area > .invisible {
+    display: none;
 }
 
 /* 댓글 관리 컨테이너 */
@@ -428,7 +444,6 @@
     border-radius: 13px;
     margin-top: 1em !important;
     margin-left: 0 !important;
-    margin-bottom: 1em !important;
     transition: all 0.2s;
 }
 
@@ -452,6 +467,7 @@
 /* 댓글 작성 컨테이너 */
 #comment-write-form-area {
     padding: 0;
+    margin-top: 1.5em;
 }
 
 /* 댓글 작성 컴포넌트 */
