@@ -14,12 +14,24 @@
 
 /* 게시글 카테고리 */
 #article-info > h2 > span.category {
-    background-color: #f8f9fa;
     border: 0;
-    padding: 6px 8px;
+    padding: 0 0 6px 0;
     border-radius: 10px;
     margin-right: 5px;
-    font-weight: bold
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#article-info > h2 > span.category[style="color:#3640f7"] {
+    color: #91a7ff !important;
+}
+
+#article-info > h2 > span.category[style="color:#00872a"] {
+    color: #69db7c !important;
+}
+
+#article-info > h2 > span.category[style="color:#52e59d"] {
+    color: #96f2d7 !important;
 }
 
 /* 게시글 제목 */
@@ -28,12 +40,18 @@
     padding: 20px 20px 15px 20px;
     border-radius: 20px 20px 0 0;
     border: 2px solid #212529;
-    color: #f8f9fa;
+    color: #e9ecef;
     border-bottom: none;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
     z-index: 1;
 }
 
+#article-info > h2 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 25px;
+}
 /* 게시물 작성자 프로필 사진 */
 #article-info .article-profile-img {
     border-radius: 15px;
@@ -42,7 +60,13 @@
 
 /* 게시물 작성자 닉네임 */
 #article-info #article-info-writer {
+    display: flex;
+    align-items: center;
     padding: 10px 0 0 0;
+}
+
+#article-info #article-info-writer > img {
+    margin-right: 7px;
 }
 
 /* 게시물 컨테이너 */
