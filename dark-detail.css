@@ -38,6 +38,10 @@
     color: #96f2d7 !important;
 }
 
+#article-info > h2 > span.category[style="color:#d800ff"] {
+    color: #e599f7 !important;
+}
+
 /* 게시글 제목 */
 #article-info {
     background-color: #343a40;
@@ -1243,4 +1247,8 @@
     background-color: #ffffff00 !important;
     color: white !important;
 
+}
+
+#article-content-wrapper>.header>#article-comment > a {
+    color: #f8f9fa;
 }
