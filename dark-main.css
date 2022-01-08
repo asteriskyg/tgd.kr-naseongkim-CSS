@@ -536,6 +536,10 @@ span.a-badge i.fa.fa-picture-o {
     color: #b197fc !important;
 }
 
+#article-list > .article-list-row > .item > .list-title > .list-category > span[style="color:#d800ff"] {
+    color: #e599f7 !important;
+}
+
 /* 게시물 리스트 (공지) */
 #article-list > .article-list-row.notice > .item {
     background-color: #26365b;
