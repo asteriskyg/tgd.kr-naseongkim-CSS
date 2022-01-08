@@ -278,88 +278,104 @@ i.fa.fa-user {
 }
 
 /* 게시판 카테고리 컨테이너 */
-#article-list #article-list-category {
-    border: 0;
-    border-radius: 20px 20px 0 0;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    background-color: #343a40 !important;
-}
+@media (min-width: 1400px) {
+    #article-list #article-list-category.can-float {
+        top: 62px;
+        left: -86px;
+        border: 0;
+        background-color: #343a40 !important;
+        width: 110px !important;
+        border-radius: 20px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        max-height: none;
 
-/* 게시판 카테고리 개별 버튼 */
-#article-list #article-list-category > a {
-    border-radius: 20px;
-    margin-right: 5px;
-    font-size: 11px;
-    background-color: #495057;
-    font-weight: 400;
-    transition: all 0.2s;
-}
+    }
 
-#article-list #article-list-category > a:hover {
-    background-color: #868e96;
-}
+    /* 게시판 카테고리 개별 버튼 */
+    #article-list #article-list-category.can-float > a {
+        border-radius: 20px;
+        margin-bottom: 5px;
+        font-size: 12px;
+        background-color: #495057;
+        border: 2px solid #495057;
+        font-weight: bold;
+        transition: all 0.2s;
+    }
 
-#article-list #article-list-category > a.active {
-    background-color: #868e96;
-}
+    #article-list #article-list-category.can-float > a:hover {
+        background-color: #868e96;
+        border: 2px solid #868e96;
+    }
 
-#article-list #article-list-category > a:last-child {
-    margin-right: 0;
-}
+    #article-list #article-list-category.can-float > a.active {
+        background-color: #26365b;
+        border: 2px solid #26365b;
+        color: #f8f9fa !important;
+    }
 
-#article-list-category > a:nth-child(2) {
-    color: #bac8ff !important;
-}
+    #article-list #article-list-category.can-float > a > i:first-child {
+        color: #f8f9fa;
+    }
 
-#article-list-category > a:nth-child(3) {
-    color: #e9ecef !important;
-}
+    #article-list #article-list-category.can-float > a:last-child {
+        margin-bottom: 0;
+    }
 
-#article-list-category > a:nth-child(4) {
-    color: #99e9f2 !important;
-}
+    #article-list-category.can-float > a:nth-child(2) {
+        color: #bac8ff !important;
+    }
 
-#article-list-category > a:nth-child(5) {
-    color: #b2f2bb !important;
-}
+    #article-list-category.can-float > a:nth-child(3) {
+        color: #e9ecef !important;
+    }
 
-#article-list-category > a:nth-child(6) {
-    color: #a5d8ff !important;
-}
+    #article-list-category.can-float > a:nth-child(4) {
+        color: #99e9f2 !important;
+    }
 
-#article-list-category > a:nth-child(7) {
-    color: #fcc2d7 !important;
-}
+    #article-list-category.can-float > a:nth-child(5) {
+        color: #b2f2bb !important;
+    }
 
-#article-list-category > a:nth-child(8) {
-    color: #eebefa !important;
-}
+    #article-list-category.can-float > a:nth-child(6) {
+        color: #a5d8ff !important;
+    }
 
-#article-list-category > a:nth-child(9) {
-    color: #96f2d7 !important;
-}
+    #article-list-category.can-float > a:nth-child(7) {
+        color: #fcc2d7 !important;
+    }
 
-#article-list-category > a:nth-child(10) {
-    color: #ffec99 !important;
-}
+    #article-list-category.can-float > a:nth-child(8) {
+        color: #eebefa !important;
+    }
 
-#article-list-category > a:nth-child(11) {
-    color: #ffc9c9 !important;
-}
+    #article-list-category.can-float > a:nth-child(9) {
+        color: #96f2d7 !important;
+    }
 
-#article-list-category > a:nth-child(12) {
-    color: #d0bfff !important;
-}
+    #article-list-category.can-float > a:nth-child(10) {
+        color: #ffec99 !important;
+    }
 
-#article-list-category > a:nth-child(13) {
-    color: #ffd8a8 !important;
-}
+    #article-list-category.can-float > a:nth-child(11) {
+        color: #ffc9c9 !important;
+    }
 
-/* 광고 영역 */
-#article-list #article-list-category + div {
-    background-color: #343a40 !important;
+    #article-list-category.can-float > a:nth-child(12) {
+        color: #d0bfff !important;
+    }
+
+    #article-list-category.can-float > a:nth-child(13) {
+        color: #ffd8a8 !important;
+    }
+
+    /* 광고 영역 */
+    #article-list #article-list-category.can-float + div {
+        background-color: #343a40 !important;
+    }
 }
 
 /* 공지 숨김 버튼 */
@@ -707,4 +723,88 @@ span.a-badge i.fa.fa-picture-o {
 /* 게시글 검색 하단 여백 */
 #article-list #boardSearchForm {
     margin: 20px auto;
+}
+
+/* 게시판 카테고리 컨테이너 */
+#article-list #article-list-category {
+    border: 0;
+    border-radius: 20px 20px 0 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #343a40 !important;
+}
+
+/* 게시판 카테고리 개별 버튼 */
+#article-list #article-list-category > a {
+    border-radius: 20px;
+    font-size: 10px;
+    background-color: #495057;
+    font-weight: 400;
+    transition: all 0.2s;
+}
+
+#article-list #article-list-category > a:hover {
+    background-color: #868e96;
+}
+
+#article-list #article-list-category > a.active {
+    background-color: #868e96;
+}
+
+#article-list #article-list-category > a:last-child {
+    margin-right: 0;
+}
+
+#article-list-category > a:nth-child(2) {
+    color: #bac8ff !important;
+}
+
+#article-list-category > a:nth-child(3) {
+    color: #e9ecef !important;
+}
+
+#article-list-category > a:nth-child(4) {
+    color: #99e9f2 !important;
+}
+
+#article-list-category > a:nth-child(5) {
+    color: #b2f2bb !important;
+}
+
+#article-list-category > a:nth-child(6) {
+    color: #a5d8ff !important;
+}
+
+#article-list-category > a:nth-child(7) {
+    color: #fcc2d7 !important;
+}
+
+#article-list-category > a:nth-child(8) {
+    color: #eebefa !important;
+}
+
+#article-list-category > a:nth-child(9) {
+    color: #96f2d7 !important;
+}
+
+#article-list-category > a:nth-child(10) {
+    color: #ffec99 !important;
+}
+
+#article-list-category > a:nth-child(11) {
+    color: #ffc9c9 !important;
+}
+
+#article-list-category > a:nth-child(12) {
+    color: #d0bfff !important;
+}
+
+#article-list-category > a:nth-child(13) {
+    color: #ffd8a8 !important;
+}
+
+/* 광고 영역 */
+#article-list #article-list-category + div {
+    background-color: #343a40 !important;
 }
