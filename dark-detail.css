@@ -22,6 +22,10 @@
     font-size: 18px;
 }
 
+#article-info > h2 > span.category[style="color:#000000"] {
+    display: none;
+}
+
 #article-info > h2 > span.category[style="color:#3640f7"] {
     color: #91a7ff !important;
 }
