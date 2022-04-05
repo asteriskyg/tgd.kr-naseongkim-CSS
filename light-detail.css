@@ -869,3 +869,39 @@
     background-clip: padding-box;
     border: 2px solid transparent;
 }
+
+/* 게시판 카테고리 컨테이너 */
+#article-list #article-list-category {
+    border: 0;
+    border-radius: 20px 20px 0 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 게시판 카테고리 개별 버튼 */
+#article-list #article-list-category > a {
+    border-radius: 20px;
+    margin-right: 0;
+    font-size: 11px;
+    background-color: #ffffff00;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+#article-list > .article-list-row > .item > .list-title > a {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#article-list #article-list-category > a:hover {
+    background-color: white;
+}
+
+#article-list #article-list-category > a.active {
+    background-color: white;
+}
+
+#article-list #article-list-category > a:last-child {
+    margin-right: 0;
+}
