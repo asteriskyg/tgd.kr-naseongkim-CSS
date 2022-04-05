@@ -1,4 +1,4 @@
-/* main.css */
+/* main_dark.css */
 
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
 @import url("https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css");
@@ -241,7 +241,7 @@ i.fa.fa-user {
     padding: 15px 0 15px 5px;
     transition: all 0.2s;
     background-color: #ffffff00;
-    content: "| 테마 빌드 220108.02D"
+    content: "| 테마 빌드 220405.01D"
 }
 
 #board-info #viewers-area:hover:after {
@@ -253,7 +253,7 @@ i.fa.fa-user {
     border-radius: 1.2rem;
     transition: all 0.2s;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.25);
-    content: "클립 카테고리와 게시물 댓글 수의 색상 변경";
+    content: "카테고리 스타일 변경";
 }
 
 #board-info #board-info-bottom {
@@ -280,12 +280,13 @@ i.fa.fa-user {
 /* 게시판 카테고리 컨테이너 */
 @media (min-width: 1400px) {
     #article-list #article-list-category.can-float {
-        top: 62px;
+        top: -80px;
         left: -86px;
-        border: 0;
+        border: 1px solid #495057;
+        border-top: 0;
         background-color: #343a40 !important;
         width: 110px !important;
-        border-radius: 20px;
+        border-radius: 0 0 16px 16px;
         padding: 5px;
         display: flex;
         justify-content: center;
@@ -296,23 +297,23 @@ i.fa.fa-user {
 
     /* 게시판 카테고리 개별 버튼 */
     #article-list #article-list-category.can-float > a {
-        border-radius: 20px;
+        border-radius: 15px;
         margin-bottom: 5px;
         font-size: 12px;
-        background-color: #495057;
-        border: 2px solid #495057;
+        background-color: #ffffff00;
+        border: 1px solid #495057;
         font-weight: bold;
         transition: all 0.2s;
     }
 
     #article-list #article-list-category.can-float > a:hover {
-        background-color: #868e96;
-        border: 2px solid #868e96;
+        background-color: #495057;
+        border: 1px solid #495057;
     }
 
     #article-list #article-list-category.can-float > a.active {
-        background-color: #26365b;
-        border: 2px solid #26365b;
+        background-color: #1971c2;
+        border: 1px solid #26365b;
         color: #f8f9fa !important;
     }
 
